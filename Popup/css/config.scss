@@ -1,0 +1,9 @@
+$overlay-size: 100%;
+$center: 0 auto;
+$popup-font-size: 18px;
+
+@mixin form-placeholder {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	color: #e1e1e1;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<div class="overlay">
+		<dialog open class="popup">
+			<div class="close"></div>
+			<form action="#" method="get">
+
+				<h1 class="registration">Registration</h1>
+
+				<div class="inputs">
+					<label class="form-label" for="login-input">E-mail:</label>
+					<span class="icon-position email-icon">
+						<input class="form-input"
+					       id="login-input"
+					       name="email"
+					       placeholder="Enter your E-mail here"
+					       type="email">
+					</span>
+				</div>
+
+				<div class="inputs">
+					<label class="form-label" for="name-input">Name:</label>
+					<span class="icon-position name-icon">
+						<input class="form-input"
+						       id="name-input"
+						       name="name"
+						       placeholder="Enter your name here">
+					</span>
+				</div>
+
+				<div class="inputs">
+					<label class="form-label" for="password-input">Password:</label>
+					<span class="icon-position password-icon">
+						<input class="form-input"
+						       id="password-input"
+						       name="password"
+						       type="password"
+						       placeholder="Enter your password here">
+					</span>
+				</div>
+
+				<button class="form-submit">Submit</button>
+				<button class="reset-btn" type="reset">Reset</button>
+			</form>
+		</dialog>
+	</div>
+</body>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</html>
